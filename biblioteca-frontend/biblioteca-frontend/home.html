@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="home.css">
+
+    <script src="home.js"></script>
+    <title>Sistema bibliotecário</title>
+</head>
+<body class="body-home">
+     
+
+  <h1 class="h1-home ">Seja bem vindo ao sistema biliotecário!</h1>
+    <!-- formulario do login -->
+    <div class="col text-center">
+           <!-- titulo -->
+
+    <form class="form-pgnInicial">
+        <div class="form-group">
+          <label for="exampleInputEmail1" class="matricula">Matrícula</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Sua matrícula">
+        
+        </div>
+        <div class="form-group">
+          <label for="exampleInputPassword1" class="senha">Senha</label>
+          <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Senha">
+        </div>
+
+        <div class="form-group form-check">
+          <input type="radio" name="t" class="form-check-input" id="estudante">
+          <label class="form-check-label" for="estudante">Estudante</label>
+        </div>
+
+        <div class="form-group form-check">
+            <input type="radio" name="t" class="form-check-input" id="biblio">
+            <label class="form-check-label" for="biblio">Bibliotecária</label>
+          </div>
+        <button type="button" class="btn btn-primary" onclick="redirecionar()">Entrar</button>
+      </form>
+
+      </div>
+    <!-- jQuery and Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

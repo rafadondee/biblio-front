@@ -1,0 +1,49 @@
+.body-home, .body_biblio, .body_estudante{
+    background-color: rgb(0, 0, 0);
+
+
+
+}
+
+.h1-home{
+
+    color: rgba(207, 14, 14, 0.993);
+        text-align: center;
+        margin-top: 5%;
+        font-size: 280%;
+
+}
+
+.titulo_bibliotecaria, .titulo_estudante{
+
+    color: rgba(207, 14, 14, 0.993);
+        text-align: center;
+        margin-top: 5%;
+        font-size: 280%;
+        
+
+}
+
+.form-control{
+    width: 30% !important;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    
+      }
+
+
+.matricula, .senha, .form-check-label{
+
+color: rgb(209, 209, 209);
+
+}
+
+.form-pgnInicial{
+
+    margin-top: 10%;
+}
+
+
+
+
